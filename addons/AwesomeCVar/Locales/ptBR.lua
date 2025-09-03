@@ -37,10 +37,14 @@ if GetLocale() == "ptBR" then
     -- CVar Categories
     L.CATEGORY_CAMERA = "Câmera"
     L.CATEGORY_NAMEPLATES = "Placas de Nome"
+    L.CATEGORY_TEXT_TO_SPEECH = "Text to Speech"
     L.CATEGORY_INTERACTION = "Interação"
     L.CATEGORY_OTHER = "Outros"
 
     -- CVar Labels & Descriptions
+    L.CVAR_LABEL_TTS_VOICE = "TTS Voice"
+    L.CVAR_LABEL_TTS_VOLUME = "TTS Volume"
+    L.CVAR_LABEL_TTS_SPEED = "TTS Rate"
     L.CVAR_LABEL_CAMERA_FOV = "Campo de Visão (FoV) da Câmera"
     L.CVAR_LABEL_ENABLE_STACKING = "Ativar Empilhamento de Placas de Nome"
     L.CVAR_LABEL_STACK_FRIENDLY = "Empilhar Placas de Nome Aliadas |cffff0000(Req. Recarregar)|r"
@@ -63,6 +67,7 @@ if GetLocale() == "ptBR" then
     L.CVAR_LABEL_INTERACTION_ANGLE = "Ângulo do Cone de Interação"
     L.CVAR_LABEL_EXTEND_WORLD_FRAME_HEIGHT = "Estender Altura do World Frame"
     L.CVAR_ENABLE_STANCE_PATCH = "Ativar patch de troca de postura/forma"
+    L.CVAR_ENABLE_SHOW_PLAYER = "Habilitar renderização do modelo do personagem do jogador"
     L.CVAR_LABEL_CAMERA_INDIRECT_VISIBILITY = "Visibilidade Indireta da Câmera"
     L.CVAR_LABEL_CAMERA_INDIRECT_ALPHA = "Alpha Indireto da Câmera"
     L.CVAR_LABEL_CAMERA_INDIRECT_OFFSET = "Offset Indireto da Câmera"

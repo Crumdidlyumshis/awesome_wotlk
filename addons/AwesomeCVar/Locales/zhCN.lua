@@ -37,10 +37,14 @@ if GetLocale() == "zhCN" then
     -- CVar Categories
     L.CATEGORY_CAMERA = "镜头"
     L.CATEGORY_NAMEPLATES = "姓名板"
+    L.CATEGORY_TEXT_TO_SPEECH = "Text to Speech"
     L.CATEGORY_INTERACTION = "互动"
     L.CATEGORY_OTHER = "其他"
 
     -- CVar Labels & Descriptions
+    L.CVAR_LABEL_TTS_VOICE = "TTS Voice"
+    L.CVAR_LABEL_TTS_VOLUME = "TTS Volume"
+    L.CVAR_LABEL_TTS_SPEED = "TTS Rate"
     L.CVAR_LABEL_CAMERA_FOV = "镜头视野（FoV）"
     L.CVAR_LABEL_ENABLE_STACKING = "启用姓名板堆叠"
     L.CVAR_LABEL_STACK_FRIENDLY = "堆叠友方姓名板 |cffff0000（需重载）|r"
@@ -63,6 +67,7 @@ if GetLocale() == "zhCN" then
     L.CVAR_LABEL_INTERACTION_ANGLE = "互动锥形角度"
     L.CVAR_LABEL_EXTEND_WORLD_FRAME_HEIGHT = "扩展世界框架高度"
     L.CVAR_ENABLE_STANCE_PATCH = "启用姿态/形态切换补丁"
+    L.CVAR_ENABLE_SHOW_PLAYER = "启用玩家角色模型渲染"
     L.CVAR_LABEL_CAMERA_INDIRECT_VISIBILITY = "镜头间接可见性"
     L.CVAR_LABEL_CAMERA_INDIRECT_ALPHA = "镜头间接透明度"
     L.CVAR_LABEL_CAMERA_INDIRECT_OFFSET = "镜头间接偏移"

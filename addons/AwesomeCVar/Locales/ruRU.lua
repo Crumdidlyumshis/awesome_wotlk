@@ -37,10 +37,14 @@ if GetLocale() == "ruRU" then
     -- CVar Categories
     L.CATEGORY_CAMERA = "Камера"
     L.CATEGORY_NAMEPLATES = "Индикаторы здоровья"
+    L.CATEGORY_TEXT_TO_SPEECH = "Text to Speech"
     L.CATEGORY_INTERACTION = "Взаимодействие"
     L.CATEGORY_OTHER = "Другие"
 
     -- CVar Labels & Descriptions
+    L.CVAR_LABEL_TTS_VOICE = "TTS Voice"
+    L.CVAR_LABEL_TTS_VOLUME = "TTS Volume"
+    L.CVAR_LABEL_TTS_SPEED = "TTS Rate"
     L.CVAR_LABEL_CAMERA_FOV = "Поле зрения камеры (FoV)"
     L.CVAR_LABEL_ENABLE_STACKING = "Включить наслоение индикаторов"
     L.CVAR_LABEL_STACK_FRIENDLY = "Наслаивать союзные индикаторы |cffff0000(нужен /reload)|r"
@@ -63,6 +67,7 @@ if GetLocale() == "ruRU" then
     L.CVAR_LABEL_INTERACTION_ANGLE = "Угол конуса взаимодействия"
     L.CVAR_LABEL_EXTEND_WORLD_FRAME_HEIGHT = "Увеличить высоту World Frame"
     L.CVAR_ENABLE_STANCE_PATCH = "Включить патч смены стойки/формы"
+    L.CVAR_ENABLE_SHOW_PLAYER = "Включить отображение модели персонажа игрока"
     L.CVAR_LABEL_CAMERA_INDIRECT_VISIBILITY = "Косвенная видимость камеры"
     L.CVAR_LABEL_CAMERA_INDIRECT_ALPHA = "Косвенная прозрачность камеры"
     L.CVAR_LABEL_CAMERA_INDIRECT_OFFSET = "Косвенный сдвиг камеры"

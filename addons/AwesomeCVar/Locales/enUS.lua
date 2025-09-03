@@ -37,10 +37,14 @@ if GetLocale() == "enUS" then
     -- CVar Categories
     L.CATEGORY_CAMERA = "Camera"
     L.CATEGORY_NAMEPLATES = "Nameplates"
+    L.CATEGORY_TEXT_TO_SPEECH = "Text to Speech"
     L.CATEGORY_INTERACTION = "Interaction"
     L.CATEGORY_OTHER = "Other"
 
     -- CVar Labels & Descriptions
+    L.CVAR_LABEL_TTS_VOICE = "TTS Voice"
+    L.CVAR_LABEL_TTS_VOLUME = "TTS Volume"
+    L.CVAR_LABEL_TTS_SPEED = "TTS Rate"
     L.CVAR_LABEL_CAMERA_FOV = "Camera FoV"
     L.CVAR_LABEL_ENABLE_STACKING = "Enable Nameplate Stacking"
     L.CVAR_LABEL_STACK_FRIENDLY = "Stack Friendly Nameplates |cffff0000(Reload Required)|r"
@@ -63,6 +67,7 @@ if GetLocale() == "enUS" then
     L.CVAR_LABEL_EXTEND_WORLD_FRAME_HEIGHT = "Extend World Frame Height"
     L.CVAR_LABEL_UPPER_BORDER_ONLY_BOSS = "Allow ONLY bosses to stick to upper border of the screen"
     L.CVAR_ENABLE_STANCE_PATCH = "Enable stance/form swap patch"
+    L.CVAR_ENABLE_SHOW_PLAYER = "Enable rendering of the player's character model"
     L.CVAR_LABEL_CAMERA_INDIRECT_VISIBILITY = "Camera Indirect Visibility"
 	L.CVAR_LABEL_CAMERA_INDIRECT_ALPHA = "Camera Indirect Alpha"
 	L.CVAR_LABEL_CAMERA_INDIRECT_OFFSET = "Camera Indirect Offset"
